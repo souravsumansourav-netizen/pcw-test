@@ -57,8 +57,8 @@
 #pcwv6-pcw #pcwv6-creation .pcwv6-text-link:hover,#pcwv6-pcw.pcwv6-product-cluster #pcwv6-creation .pcwv6-text-link:hover{background:var(--cta-jewel-hover)}
 #pcwv6-pcw{position:relative;clip-path:inset(0)}
 #pcwv6-pcw.pcwv6-hosted{--pcw-head:86px}
-@font-face{font-family:Cormorant;src:url('https://staticimg.tanishq.co.in/microsite/couture/assets/fonts/cormorant-normal.woff2') format('woff2');font-weight:300 700;font-display:swap}
-@font-face{font-family:Jost;src:url('https://staticimg.tanishq.co.in/microsite/couture/assets/fonts/jost.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:Cormorant;src:url('/assets/fonts/cormorant-normal.woff2') format('woff2');font-weight:300 700;font-display:swap}
+@font-face{font-family:Jost;src:url('/assets/fonts/jost.woff2') format('woff2');font-weight:100 900;font-display:swap}
 #pcwv6-pcw #pcwv6-stage .pcwv6-header{display:none}
 #pcwv6-pcw #pcwv6-opening:before{display:none}
 #pcwv6-pcw #pcwv6-opening{padding:45px 20px 74px;color:#22354c}
@@ -435,7 +435,7 @@
 
 @font-face {
  font-family:Baskervville;
- src:url('https://staticimg.tanishq.co.in/microsite/couture/assets/fonts/baskervville-regular-latin.woff2') format('woff2');
+ src:url('/assets/fonts/baskervville-regular-latin.woff2') format('woff2');
  font-style:normal;
  font-weight:400;
  font-display:swap;

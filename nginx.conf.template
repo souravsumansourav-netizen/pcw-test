@@ -1,0 +1,14 @@
+server {
+  listen ${PORT};
+  root /usr/share/nginx/html;
+  index index.html;
+  gzip on;
+  gzip_types text/css application/javascript image/svg+xml;
+  add_header Accept-Ranges bytes;
+  location /assets/ {
+    add_header Cache-Control "public, max-age=3600";
+    add_header Access-Control-Allow-Origin "*";
+    try_files $uri =404;
+  }
+  location / { try_files $uri /index.html; }
+}

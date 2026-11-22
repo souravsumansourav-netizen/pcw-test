@@ -36,3 +36,7 @@ The form validates and thanks the visitor; it posts nowhere. Wire it to the lead
 
 ## Checked
 Host replica (fixed 86 px / 130 px bar, `overflow:hidden` wrapper, global rules on img, button, a, h1–h3, p, ul, section), desktop 1440×900 and phone 375×812: opening, film, the three collections, moodboard, invitation, host footer; zero console errors, zero 404s. Not checked: real iPhone/Android, Windows wheel, the live Tanishq CSS, CDN headers.
+
+## This repo (build 165d)
+- Repo root is the deployable test site (Render: Docker via `Dockerfile`, or Static Site with publish dir `.`). Asset paths are local `/assets/...`.
+- `salesforce/index.html` is the Salesforce/CDN version (assets on `staticimg.tanishq.co.in`); upload `assets/` to the CDN with the same layout.
