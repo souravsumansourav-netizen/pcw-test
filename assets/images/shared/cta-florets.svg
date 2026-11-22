@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 52">
+ <g fill="none" stroke="#fff" stroke-opacity=".55" stroke-width=".7" stroke-linecap="round">
+  <path d="M10 52C11 40 14 31 21 22"/><path d="M13 40C9 35 7 31 6 26"/><path d="M15 33C20 31 25 31 30 33"/><path d="M18 27C17 22 18 17 21 13"/>
+ </g>
+ <g fill="#fff" fill-opacity=".62">
+  <g transform="translate(21 20)"><circle cx="0" cy="-2.3" r="1.5"/><circle cx="2.2" cy="-.7" r="1.5"/><circle cx="1.4" cy="1.9" r="1.5"/><circle cx="-1.4" cy="1.9" r="1.5"/><circle cx="-2.2" cy="-.7" r="1.5"/></g>
+  <g transform="translate(6 25) scale(.75)"><circle cx="0" cy="-2.3" r="1.5"/><circle cx="2.2" cy="-.7" r="1.5"/><circle cx="1.4" cy="1.9" r="1.5"/><circle cx="-1.4" cy="1.9" r="1.5"/><circle cx="-2.2" cy="-.7" r="1.5"/></g>
+  <g transform="translate(31 33) scale(.65)"><circle cx="0" cy="-2.3" r="1.5"/><circle cx="2.2" cy="-.7" r="1.5"/><circle cx="1.4" cy="1.9" r="1.5"/><circle cx="-1.4" cy="1.9" r="1.5"/><circle cx="-2.2" cy="-.7" r="1.5"/></g>
+  <circle cx="21" cy="12" r="1.1"/><circle cx="23.5" cy="14.5" r=".8"/><circle cx="18" cy="15.5" r=".8"/><circle cx="13" cy="37" r=".8"/>
+ </g>
+ <g fill="#e9d7b4" fill-opacity=".7"><circle cx="21" cy="20" r=".8"/><circle cx="6" cy="25" r=".6"/><circle cx="31" cy="33" r=".5"/></g>
+</svg>
